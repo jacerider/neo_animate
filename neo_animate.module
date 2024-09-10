@@ -4,3 +4,14 @@
  * @file
  * Primary module hooks for Neo Animate module.
  */
+
+/**
+ * Implements hook_theme().
+ */
+function neo_animate_theme() {
+  return [
+    'neo_animate_demo' => [
+      'render element' => 'element',
+    ],
+  ];
+}
